@@ -3,7 +3,7 @@
 LiquidCrystal lcd(1,2,4,5,6,7);
 int state = 0;
 HX711 scale(3, 2);
-float calibration_factor = -360; //callibration
+float calibration_factor = -360; //calibration
 
 void setup() {
 	pinMode(12, INPUT);
