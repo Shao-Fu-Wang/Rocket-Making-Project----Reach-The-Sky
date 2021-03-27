@@ -1,4 +1,4 @@
-# Rocket-Making-Project----Reach-The-Sky-
+# Rocket-Making-Project----Reach-The-Sky
 ----------------------------------------------
   RTS是復興實中高中部創立的一個學生自主研究團隊，目標是製作出大約1公尺高的火箭，並能成功地翱翔於藍天。  
   
