@@ -3,7 +3,7 @@
 LiquidCrystal lcd(1,2,4,5,6,7);
 int state = 0;
 HX711 scale(3, 2);
-float calibration_factor = -360; //校準
+float calibration_factor = -360; //callibration
 
 void setup() {
 	pinMode(12, INPUT);
@@ -25,7 +25,7 @@ void loop() {
 	delay(500);
 	state = digitalRead(12);
 	if (state == HIGH) {
-		Serial.println("啟動測試");
+		Serial.println("Testing.");
 		for (int i=0; i <= 50; i++){
 			digitalWrite(13, HIGH);
 			delay (100);
